@@ -7,6 +7,7 @@ public abstract class Operacion implements Termino{
 	protected Termino left;
 	protected Termino right;
 	
+	// Super constructor
 	public Operacion(Termino left, Termino right) {
 		this.left = left;
 		this.right = right;
